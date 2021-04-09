@@ -1,3 +1,9 @@
+*{
+  margin: auto;
+  box-sizing: border-box;
+}
+
+
 h1{
   padding: 10%;
   font-size: large;
