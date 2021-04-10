@@ -5,21 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
   <title>Martin Movie App</title>
 </head>
 <body>
-  <h1>Martin Movie App</h1>
-  <header>
-  <form id="form">
+  <body>
+    <div class="container text-center">
+      <form class="form-inline" id="search-form">
+        <input type="text" class="form-control" placeholder="Find movie" id="search-input">
+        <input type="submit" class="btn btn-primary">
+      </form>
+      <ul id="results" class="list-inline"></ul>
+    </div>
 
-    <input
-        type="text"
-        id="search"
-        placeholder="Search"
-        class="search"
-    />
-</form>
-  </header>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
