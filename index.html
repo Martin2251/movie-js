@@ -11,15 +11,20 @@
   <body>
     <div id="first-part">
       <h1>Welcome to Martin Movie API</h1>
-      <img src="cinema.jpg" alt="Cinema">
-    </div>
+      <img id ="front-image" src="cinema.jpg" alt="Cinema">
 
-    <div id="search-btn">
+
       <form class="form-inline" id="search-form">
-        <input type="text" class="form-control" placeholder="Find movie" id="search-input">
+        <input type="text" class="form-control" placeholder="Find movie" id="search-input" class="round">
         <input type="submit" class="button">
       </form>
-      <ul id="results" class="list-inline"></ul>
+
+</div>
+
+  <div id="first-part">
+    <div class="container text-center">
+      <ul id="results" ></ul>
+    </div>
     </div>
 
     <script src="script.js"></script>

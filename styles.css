@@ -1,14 +1,16 @@
 #first-part{
 
-  margin: auto;
-  box-sizing: border-box;
-  background: repeating-linear-gradient(
-    45deg,
-    #606dbc,
-    #606dbc 10px,
-    #465298 10px,
-    #465298 20px
-  );
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6.0px );
+  -webkit-backdrop-filter: blur( 6.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 5px;
 
 }
 
@@ -23,11 +25,14 @@ h1{
 
 .results{
 display: flex;
-align-items: center;
+align-items: flex-start;
 justify-content: space-between;
-align-items: ;
 border: 3em;
 border: solid;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .button {
@@ -42,19 +47,23 @@ border: solid;
   box-shadow: 3em;
 }
 
-img{
+.front-image {
   display: block;
   margin-left: auto;
-margin-right: auto;
+  margin-right: auto;
   width: 50%;
   height: 50%;
+  border: solid;
 }
 
-#search-btn{
-    position:;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -100px;
-  }
+img{
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  border:2px dotted blue;
+}
+
 
