@@ -1,4 +1,4 @@
-const list = document.querySelector("#results");
+const list = document.getElementById("results");
 
 const insertMovies = (data) => {
   data.Search.forEach((result) => {
@@ -18,10 +18,10 @@ const fetchMovies = (query) => {
 
 fetchMovies("The Layercake"); // on 1st page load
 
-const form = document.querySelector("#search-form");
+const form = document.getElementById("search-form");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   list.innerHTML = "";
-  const input = document.querySelector("#search-input");
+  const input = document.getElementById("search-input");
   fetchMovies(input.value);
 });
