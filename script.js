@@ -1,5 +1,6 @@
 const list = document.getElementById("results");
 
+//fetching data with movies image and title
 const insertMovies = (data) => {
   data.Search.forEach((result) => {
     const movie = `<li>
@@ -9,7 +10,7 @@ const insertMovies = (data) => {
     list.insertAdjacentHTML("beforeend", movie);
   });
 };
-
+// fetch to get api and using api key it will come back with Json as data
 const fetchMovies = (query) => {
   fetch(`http://www.omdbapi.com/?s=${query}&apikey=24885019`)
     .then((response) => response.json())
@@ -18,6 +19,7 @@ const fetchMovies = (query) => {
 
 fetchMovies("The Layercake"); // on 1st page load
 
+//
 const form = document.getElementById("search-form");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
