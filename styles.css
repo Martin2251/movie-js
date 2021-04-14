@@ -20,7 +20,7 @@ h1{
  text-emphasis-color: red;
   padding: 10%;
   font-size: large;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Zen Dots', cursive;
 }
 
 .results{
@@ -43,7 +43,6 @@ ul {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   box-shadow: 3em;
 }
@@ -64,7 +63,12 @@ img{
   margin-right: auto;
   width: 50%;
   height: 50%;
-  border:2px dotted blue;
+  border:2px solid blue;
 }
 
-
+#search-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
