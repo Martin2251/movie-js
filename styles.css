@@ -37,13 +37,13 @@ ul {
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #008cba; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 24px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 12px;
   box-shadow: 3em;
 }
 
@@ -71,4 +71,8 @@ img{
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+}
+
+.card {
+
 }
