@@ -26,9 +26,10 @@ h1{
 .results{
 display: flex;
 align-items: flex-start;
-justify-content: space-between;
+justify-content:space-around;
 border: 3em;
 border: solid;
+
 }
 ul {
   display: flex;

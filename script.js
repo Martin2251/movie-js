@@ -1,3 +1,4 @@
+//gives the data a list of results
 const list = document.getElementById("results");
 
 //fetching data with movies image and title
@@ -19,7 +20,7 @@ const fetchMovies = (query) => {
 
 fetchMovies("The Layercake"); // on 1st page load
 
-//
+// add events and makes you input value
 const form = document.getElementById("search-form");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
