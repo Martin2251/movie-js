@@ -1,35 +1,32 @@
-#first-part{
-
-  background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 6.0px );
-  -webkit-backdrop-filter: blur( 6.0px );
+#first-part {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
   align-items: center;
   justify-content: space-between;
   display: flex;
   align-items: center;
   padding: 5px;
-
 }
 
-
-h1{
+h1 {
   text-align: center;
- text-emphasis-color: red;
+  text-emphasis-color: red;
   padding: 10%;
   font-size: large;
-  font-family: 'Zen Dots', cursive;
+  font-family: "Zen Dots", cursive;
 }
 
-.results{
-display: flex;
-align-items: flex-start;
-justify-content:space-around;
-border: 3em;
-border: solid;
-
+.results {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  border: 3em;
+  border: solid;
+  margin: 5px;
 }
 ul {
   display: flex;
@@ -39,6 +36,7 @@ ul {
 .button {
   background-color: #008cba; /* Green */
   border: none;
+  border-radius: 4px;
   color: white;
   padding: 10px 24px;
   text-align: center;
@@ -56,14 +54,14 @@ ul {
   border: solid;
 }
 
-img{
+img {
   align-items: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   height: 50%;
-  border:2px solid blue;
+  border: 2px solid blue;
 }
 
 #search-form {
@@ -74,5 +72,4 @@ img{
 }
 
 .card {
-
 }
