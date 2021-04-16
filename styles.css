@@ -27,6 +27,8 @@ h1 {
   border: 3em;
   border: solid;
   margin: 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 ul {
   display: flex;
@@ -43,6 +45,11 @@ ul {
   text-decoration: none;
   font-size: 12px;
   box-shadow: 3em;
+}
+
+.button:hover {
+  background-color: black;
+  cursor: pointer;
 }
 
 .front-image {
@@ -77,5 +84,7 @@ img {
 @media screen and (max-width: 600px) {
   body {
     background-color: olive;
+    flex-direction: column;
+    margin: 3px;
   }
 }
