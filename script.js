@@ -1,7 +1,7 @@
 //gives the data a list of results
 const list = document.getElementById("results");
 
-//fetching data with movies image and title
+//fetching data with movies image and title and making a list out of it
 const insertMovies = (data) => {
   data.Search.forEach((result) => {
     const movie = `<li>
@@ -18,7 +18,7 @@ const fetchMovies = (query) => {
     .then(insertMovies);
 };
 
-fetchMovies("The Layercake"); // on 1st page load
+//fetchMovies("The Layercake"); // on 1st page load
 
 // add events and makes you input value
 const form = document.getElementById("search-form");
