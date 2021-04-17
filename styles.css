@@ -1,34 +1,24 @@
-html {
+body {
   background: url(chairs.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+align-items: center;
 }
 
 p{
   color: white;
 }
 
-#first-part {
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  padding: 5px;
-}
 
 h1 {
   text-align: center;
   color: white;
   text-emphasis-color: red;
-  padding: 10%;
+  padding: 20px;
   font-size: large;
   font-family: "Zen Dots", cursive;
 }
@@ -49,7 +39,7 @@ ul {
 }
 
 .button {
-  background-color: #008cba; /* Green */
+  background-color:#e67e22; /* Green */
   border: none;
   border-radius: 4px;
   color: white;
@@ -61,7 +51,7 @@ ul {
 }
 
 .button:hover {
-  background-color: black;
+  background-color: #d35400;
   cursor: pointer;
 }
 
@@ -103,11 +93,40 @@ img {
   padding: 10px 24px;
 }
 
-ul {
+/* 1. addd a div instead of ul, and divs instead of the li*/
+ul
+{
   list-style-type: none; /* Remove bullets */
+  display: flex;
+  justify-content: center;
 
 }
 
+#search-input {
+  height: 30px;
+  width: 300px;
+}
+
+.search-cointainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+
+
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(149, 165, 166,0.6);
+  width: 90%;
+  border-radius: 5px;
+  padding-top: 15px;
+  justify-content: center;
+
+}
 
 
 @media screen and (max-width: 600px) {

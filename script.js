@@ -8,6 +8,7 @@ const insertMovies = (data) => {
       <img src="${result.Poster}" alt="" />
       <p>${result.Title}</p>
     </li>`;
+
     list.insertAdjacentHTML("beforeend", movie);
   });
 };
@@ -22,6 +23,7 @@ const fetchMovies = (query) => {
 
 // add events and makes you input value
 const form = document.getElementById("search-form");
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   list.innerHTML = "";
